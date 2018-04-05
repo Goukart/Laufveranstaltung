@@ -1,0 +1,50 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1520807901832
+Build-Jdk: 1.7.0_80
+Built-By: rgoers
+Bundle-Description: The Apache Log4j 1.x Compatibility API
+Bundle-DocURL: https://www.apache.org/
+Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Log4j 1.x Compatibility API
+Bundle-SymbolicName: org.apache.logging.log4j.1.2-api
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 2.11.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apache.log4j;version="2.11.0";uses:="org.apache.lo
+ g4j.spi,org.apache.logging.log4j.core",org.apache.log4j.config;versio
+ n="2.11.0";uses:="org.apache.logging.log4j.core,org.apache.logging.lo
+ g4j.core.config,org.apache.logging.log4j.core.config.builder.api,org.
+ apache.logging.log4j.core.config.builder.impl,org.apache.logging.log4
+ j.core.tools,org.apache.logging.log4j.core.tools.picocli",org.apache.
+ log4j.helpers;version="2.11.0",org.apache.log4j.layout;version="2.11.
+ 0";uses:="org.apache.logging.log4j.core,org.apache.logging.log4j.core
+ .config.plugins,org.apache.logging.log4j.core.layout",org.apache.log4
+ j.pattern;version="2.11.0";uses:="org.apache.logging.log4j.core,org.a
+ pache.logging.log4j.core.config.plugins,org.apache.logging.log4j.core
+ .pattern",org.apache.log4j.spi;version="2.11.0";uses:="org.apache.log
+ 4j",org.apache.log4j.xml;version="2.11.0";uses:="javax.xml.parsers,or
+ g.apache.log4j.config,org.apache.log4j.spi,org.w3c.dom"
+Fragment-Host: org.apache.logging.log4j.core
+Import-Package: javax.xml.parsers,org.apache.log4j;version="[2.11,3)",
+ org.apache.log4j.config;version="[2.11,3)",org.apache.log4j.helpers;v
+ ersion="[2.11,3)",org.apache.log4j.spi;version="[2.11,3)",org.apache.
+ logging.log4j;version="[2.11,3)",org.apache.logging.log4j.core;versio
+ n="[2.11,3)",org.apache.logging.log4j.core.appender;version="[2.11,3)
+ ",org.apache.logging.log4j.core.config;version="[2.11,3)",org.apache.
+ logging.log4j.core.config.builder.api;version="[2.11,3)",org.apache.l
+ ogging.log4j.core.config.builder.impl;version="[2.11,3)",org.apache.l
+ ogging.log4j.core.config.plugins;version="[2.11,3)",org.apache.loggin
+ g.log4j.core.layout;version="[2.11,3)",org.apache.logging.log4j.core.
+ lookup;version="[2.11,3)",org.apache.logging.log4j.core.pattern;versi
+ on="[2.11,3)",org.apache.logging.log4j.core.tools;version="[2.11,3)",
+ org.apache.logging.log4j.core.tools.picocli;version="[2.11,3)",org.ap
+ ache.logging.log4j.core.util;version="[2.11,3)",org.apache.logging.lo
+ g4j.message;version="[2.11,3)",org.apache.logging.log4j.spi;version="
+ [2.11,3)",org.apache.logging.log4j.status;version="[2.11,3)",org.apac
+ he.logging.log4j.util;version="[2.11,3)",org.w3c.dom
+Log4jReleaseKey: B3D8E1BA
+Log4jReleaseManager: Ralph Goers
+Log4jReleaseVersion: 2.11.0
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+Tool: Bnd-3.5.0.201709291849
