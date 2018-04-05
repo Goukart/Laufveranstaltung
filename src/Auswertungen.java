@@ -1,6 +1,0 @@
-public enum Auswertungen {
-	STARTLISTE,
-	GESAMTERGEBNISLISTE,
-	NICHTSTARTER,
-	ABBRECHER
-}
