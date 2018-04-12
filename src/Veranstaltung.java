@@ -1,3 +1,6 @@
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 public class Veranstaltung implements Bank {
 
 	private String Name;
@@ -5,6 +8,17 @@ public class Veranstaltung implements Bank {
 	private Date Termin;
 	private int Startgebühr;
 	private Map Teilnehmer;
+	static Logger log = LogManager.getRootLogger();
+	
+	
+	public static void main(String[] argv) {
+		
+	}
+	
+	
+	public void Veranstaltung(){
+		log.info("Programm wurde gestartet.");
+	}
 
 	public void getNummer() {
 		// TODO - implement Veranstaltung.getNummer

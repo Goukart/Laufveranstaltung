@@ -11,6 +11,7 @@ public class Alterklasse {
 	 */
 	public Alterklasse(int[] alter) {
 		// TODO - implement Alterklasse.Alterklasse
+		
 		throw new UnsupportedOperationException();
 	}
 }
