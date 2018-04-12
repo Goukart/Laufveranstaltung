@@ -3,6 +3,7 @@
 	<name>Laufveranstaltung-git</name>
 	<comment></comment>
 	<projects>
+		<project>Laufveranstaltung</project>
 	</projects>
 	<buildSpec>
 	</buildSpec>

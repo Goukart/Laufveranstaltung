@@ -1,10 +1,7 @@
-<<<<<<< HEAD
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-=======
 import java.util.Date;
 import java.util.Map;
->>>>>>> branch 'master' of https://github.com/Goukart/Laufveranstaltung.git
 
 public class Veranstaltung implements Bank {
 

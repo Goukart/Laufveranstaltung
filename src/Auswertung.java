@@ -1,3 +1,5 @@
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import java.util.Map;
 
 public class Auswertung {
@@ -14,6 +16,7 @@ public class Auswertung {
 
 	public static Auswertung getInstanz() {
 		// TODO - implement Auswertung.getInstanz
+		log.info("Bank wird benutzt");
 		throw new UnsupportedOperationException();
 	}
 
