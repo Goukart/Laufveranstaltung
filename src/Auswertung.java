@@ -8,6 +8,7 @@ public class Auswertung {
 	private Map Alterklassen;
 	private int[] Aussteiger;
 	private static Auswertung auswertung;
+	static Logger log = LogManager.getRootLogger();
 
 	private Auswertung() {
 		// TODO - implement Auswertung.Auswertung
