@@ -17,4 +17,8 @@ public class Laufergebnis implements Sensor {
 		throw new UnsupportedOperationException();
 	}
 
+	@Override
+	public double[] getZeiten(int nummer) {
+		return new double[0];
+	}
 }

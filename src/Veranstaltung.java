@@ -1,9 +1,12 @@
+import java.util.Date;
+import java.util.Map;
+
 public class Veranstaltung implements Bank {
 
 	private String Name;
 	private double Strecke;
 	private Date Termin;
-	private int Startgebühr;
+	private int Startgebuehr;
 	private Map Teilnehmer;
 
 	public void getNummer() {
@@ -13,92 +16,101 @@ public class Veranstaltung implements Bank {
 
 	/**
 	 * 
-	 * @param läufer
+	 * @param laeufer
 	 */
-	public void anmelden(Läufer läufer) {
+	public void anmelden(Laeufer laeufer) {
 		// TODO - implement Veranstaltung.anmelden
 		throw new UnsupportedOperationException();
 	}
 
 	/**
 	 * 
-	 * @param läufer
+	 * @param laeufer
 	 */
-	public void abmelden(Läufer läufer) {
+	public void abmelden(Laeufer laeufer) {
 		// TODO - implement Veranstaltung.abmelden
 		throw new UnsupportedOperationException();
 	}
 
-	public Läufer[] listeLäufer() {
-		// TODO - implement Veranstaltung.listeLäufer
+	public Laeufer[] listeLaeufer() {
+		// TODO - implement Veranstaltung.listeLï¿½ufer
 		throw new UnsupportedOperationException();
 	}
 
 	/**
 	 * 
-	 * @param läufer
+	 * @param laeufer
 	 */
-	public void vereinÄndern(Läufer läufer) {
-		// TODO - implement Veranstaltung.vereinÄndern
+	public void vereinAendern(Laeufer laeufer) {
+		// TODO - implement Veranstaltung.vereinï¿½ndern
 		throw new UnsupportedOperationException();
 	}
 
-	public Läufer[] erstelleStartliste() {
+	public Laeufer[] erstelleStartliste() {
 		// TODO - implement Veranstaltung.erstelleStartliste
 		throw new UnsupportedOperationException();
 	}
 
 	/**
 	 * 
-	 * @param Date
+	 * @param bis
 	 */
-	public void anmeldungen(bis Date) {
+	public void anmeldungen(Date bis) {
 		// TODO - implement Veranstaltung.anmeldungen
 		throw new UnsupportedOperationException();
 	}
 
 	/**
 	 * 
-	 * @param läuferListe
+	 * @param laeuferListe
 	 */
-	public void zuweisungNummern(Läufer[] läuferListe) {
+	public void zuweisungNummern(Laeufer[] laeuferListe) {
 		// TODO - implement Veranstaltung.zuweisungNummern
 		throw new UnsupportedOperationException();
 	}
 
-	public Läufer[] listeAufgeber() {
+	public Laeufer[] listeAufgeber() {
 		// TODO - implement Veranstaltung.listeAufgeber
 		throw new UnsupportedOperationException();
 	}
 
 	/**
 	 * 
-	 * @param läufer
+	 * @param laeufer
 	 */
-	public void disqualifizieren(Läufer läufer) {
+	public void disqualifizieren(Laeufer laeufer) {
 		// TODO - implement Veranstaltung.disqualifizieren
 		throw new UnsupportedOperationException();
 	}
 
 	/**
 	 * 
-	 * @param läufer
+	 * @param laeufer
 	 * @param zeit
 	 */
-	public void laufzeitÄndern(Läufer läufer, double zeit) {
-		// TODO - implement Veranstaltung.laufzeitÄndern
+	public void laufzeitAendern(Laeufer laeufer, double zeit) {
+		// TODO - implement Veranstaltung.laufzeitï¿½ndern
 		throw new UnsupportedOperationException();
 	}
 
 	/**
 	 * 
-	 * @param läufer
+	 * @param laeufer
 	 * @param zeit
 	 * @param platzierung
 	 */
-	public void sms(Läufer läufer, double zeit, int platzierung) {
+	public void sms(Laeufer laeufer, double zeit, int platzierung) {
 		// TODO - implement Veranstaltung.sms
 		throw new UnsupportedOperationException();
 	}
 
+	@Override
+	public void buchen(int quellKonto, int zielKonto, int betrag) {
+
+	}
+
+	@Override
+	public int[] zahlungsEingaenge(int Konto) {
+		return new int[0];
+	}
 }
