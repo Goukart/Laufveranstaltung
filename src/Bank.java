@@ -12,6 +12,6 @@ public interface Bank {
 	 * 
 	 * @param Konto
 	 */
-	int[] zahlungsEingänge(int Konto);
+	int[] zahlungsEingaenge(int Konto);
 
 }
