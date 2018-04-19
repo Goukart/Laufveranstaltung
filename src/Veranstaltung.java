@@ -5,21 +5,22 @@ import java.util.Map;
 
 public class Veranstaltung implements Bank {
 
-	private String Name;
-	private double Strecke;
-	private Date Termin;
-	private int Startgebuehr;
-	private Map Teilnehmer;
-	static Logger log = LogManager.getRootLogger();
+	private String name;
+	private double strecke;
+	private Date termin;
+	private int startgebuehr;
+	private Map teilnehmer;
+	
 	
 	
 	public static void main(String[] argv) {
 		System.out.println("Passt erstmal");
-	}
+		
+		Anmeldung anm = new Anmeldung();	}
 	
 	
 	public void Veranstaltung(){
-		log.info("Programm wurde gestartet.");
+		//log.info("Programm wurde gestartet.");
 	}
 
 	public void getNummer() {

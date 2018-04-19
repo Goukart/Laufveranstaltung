@@ -1,18 +1,18 @@
-public class Laufergebnis implements Sensor {
+public class Laufzeit implements Sensor {
 
-	private double Endzeit;
-	private double[] Zwischenzeiten;
+	private double endzeit;
+	private double[] zwischenzeiten;
 
 	/**
 	 * 
 	 * @param Zeiten
 	 */
-	public Laufergebnis(double[] Zeiten) {
+	public Laufzeit(double[] Zeiten) {
 		// TODO - implement Laufergebnis.Laufergebnis
 		throw new UnsupportedOperationException();
 	}
 
-	public Laufergebnis() {
+	public Laufzeit() {
 		// TODO - implement Laufergebnis.Laufergebnis
 		throw new UnsupportedOperationException();
 	}

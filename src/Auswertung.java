@@ -4,9 +4,9 @@ import java.util.Map;
 
 public class Auswertung {
 
-	private int[] Starterliste;
-	private Map Alterklassen;
-	private int[] Aussteiger;
+	private int[] starterliste;
+	private Map alterklassen;
+	private int[] aussteiger;
 	private static Auswertung auswertung;
 	static Logger log = LogManager.getRootLogger();
 
