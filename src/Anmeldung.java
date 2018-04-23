@@ -1,5 +1,5 @@
-import org.apache.log4j.LogManager;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class Anmeldung {
 
@@ -7,9 +7,9 @@ public class Anmeldung {
 	private Veranstaltung veranstaltung;
 	private boolean bezahlt;
 	private Verein verein;
-	//static Logger log = LogManager.getRootLogger();
+	static final Logger log = LogManager.getRootLogger();
 
 	void getName_Loschen(){
-		//log.info("Programm wurde gestartet.");
+		log.info("Programm wurde gestartet.");
 	}
 }
