@@ -1,5 +1,5 @@
-import org.apache.log4j.LogManager;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import java.util.Date;
 import java.util.Map;
 
@@ -10,6 +10,7 @@ public class Veranstaltung implements Bank {
 	private Date termin;
 	private int startgebuehr;
 	private Map teilnehmer;
+	static final Logger log = LogManager.getRootLogger();
 	
 	
 	
@@ -20,7 +21,7 @@ public class Veranstaltung implements Bank {
 	
 	
 	public void Veranstaltung(){
-		//log.info("Programm wurde gestartet.");
+		log.info("Programm wurde gestartet.");
 	}
 
 	public void getNummer() {
