@@ -14,10 +14,11 @@ public class Veranstaltung implements Bank {
 	
 	
 	
-	public static void main(String[] argv) {
+	public static void main(String[] args) {
 		System.out.println("Passt erstmal");
 		
-		Anmeldung anm = new Anmeldung();	}
+		Anmeldung anm = new Anmeldung();
+	}
 	
 	
 	public void Veranstaltung(){
