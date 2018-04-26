@@ -14,7 +14,7 @@ public class Veranstaltung implements Bank {
 	
 	
 	public static void main(String[] argv) {
-		
+		log.info("Programm gestartet");
 	}
 	
 	
